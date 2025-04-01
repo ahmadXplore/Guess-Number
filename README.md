@@ -19,4 +19,4 @@ A simple number guessing game where players try to guess a randomly generated nu
    ```sh
    git clone https://github.com/your-username/your-repo-name.git
 
-   cd your-repo-name
+   cd Guess-Number
