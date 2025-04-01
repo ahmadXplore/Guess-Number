@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #222;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.game-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.again-btn {
+    background-color: #eee;
+    color: #222;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.range {
+    font-size: 18px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.question-mark-container {
+    position: relative;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.question-mark {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15rem;
+    height: 100px;
+    background-color: #eee;
+    color: #222;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.guess-input {
+    background: none;
+    border: 4px solid #eee;
+    color: #eee;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    padding: 20px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+}
+
+.check-btn {
+    background-color: #eee;
+    color: #222;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.message {
+    margin-bottom: 60px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .game-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .question-mark {
+        width: 80px;
+        height: 80px;
+        font-size: 50px;
+    }
+
+    .guess-input {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .check-btn {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .info-section {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .question-mark {
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+    }
+
+    .again-btn {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+
+    .range {
+        font-size: 16px;
+    }
+
+    .guess-input {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .check-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
