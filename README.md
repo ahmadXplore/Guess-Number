@@ -1,53 +1,22 @@
-Guess The Number Game
+# Guess My Number Game 🎯
 
-A simple number guessing game built with HTML, CSS, and JavaScript.
+A simple number guessing game where players try to guess a randomly generated number between 1 and 20.
 
-🎮 How to Play
+## 🎮 How to Play
+1. Enter a number between 1 and 20 in the input field.
+2. Click the "Check!" button to submit your guess.
+3. If your guess is too high or too low, hints will be provided.
+4. Keep guessing until you find the correct number.
+5. Click "Again!" to restart the game.
 
-The game randomly selects a secret number between 1 and 20.
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-Enter your guess in the input field and click the Check button.
+## 🚀 Setup Instructions
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
 
-The game will give feedback:
-
-🎉 Correct Number! (if you guess right)
-
-📈 Too High (if your guess is too high)
-
-📉 Too Low (if your guess is too low)
-
-Your score decreases with each wrong guess.
-
-Try to guess the number before your score reaches zero!
-
-Click the Again button to restart the game.
-
-🛠️ Technologies Used
-
-HTML
-
-CSS (Responsive design)
-
-JavaScript (DOM manipulation & game logic)
-
-📸 Screenshots
-
- (Replace with actual screenshot)
-
-🚀 Setup & Installation
-
-Clone this repository:
-
-git clone https://github.com/ahmadXplore/Guess-Number.git
-
-Open index.html in your browser.
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-🙌 Acknowledgments
-
-Inspired by the fun and simplicity of number guessing games!
-
-Enjoy playing and improving your guessing skills! 🎯
+   cd your-repo-name
